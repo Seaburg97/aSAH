@@ -8,7 +8,7 @@ This repository contains an implementation of deep learning models for predictin
 
 ## Model Overview
 
-The project consists of five main models:
+The project consists of five main models(models sees in https://drive.google.com/drive/folders/1h4DCQZDT3-uWbUz6fDorrNToGVo23zg2?usp=drive_link):
 
 1. **Pre-operative Model**: A CBAM-enhanced ResNet50 architecture for predicting mRS scores using pre-operative CT scans
 2. **Post-operative Model**: Similar CBAM-ResNet50 architecture for post-operative outcome prediction
