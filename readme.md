@@ -6,7 +6,7 @@ This repository contains an implementation of deep learning models for predictin
 
 > Liu Y, Yu Y, Ouyang J, et al. Prediction of ischemic stroke functional outcomes from acute-phase noncontrast CT and clinical information. Radiology 2024;313:e240137.
 
-## Model Overview
+### Model Overview
 
 We provide **five main models** from the manuscript, along with **two alternative fusion variants** from the supplementary material:(models sees in https://drive.google.com/drive/folders/1h4DCQZDT3-uWbUz6fDorrNToGVo23zg2?usp=drive_link):
 
@@ -28,7 +28,7 @@ Each model has been saved as a separate folder containing:
 
 ---
 
-## 🛠️ How to Use
+### 🛠️ How to Use
 
 Each model is self-contained and can be run independently by modifying only the input path.
 
@@ -41,7 +41,7 @@ Each model is self-contained and can be run independently by modifying only the 
 > 💡 You do **not** need to re-train the models. All weights are pre-loaded and ready for evaluation.
 
 ---
-## Requirements
+### Requirements
 
 - PyTorch
 - scikit-learn
@@ -51,14 +51,9 @@ Each model is self-contained and can be run independently by modifying only the 
 - seaborn
 - TorchIO
 ...(sees in Python script)
+---
 
 ### Model Evaluation
-
-```bash
-python fusion_test.py --model [path_to_model] --data [path_to_test_data]
-```
-
-## Model Evaluation
 
 The implementation includes comprehensive evaluation tools for:
 - ROC curve analysis
@@ -66,7 +61,7 @@ The implementation includes comprehensive evaluation tools for:
 - Accuracy metrics for different mRS thresholds
 - Model comparison and statistical analysis
 
-## Performance Metrics
+### Performance Metrics
 
 The models are evaluated using:
 - Mean Absolute Error (MAE)
@@ -76,7 +71,7 @@ The models are evaluated using:
 
 ---
 
-## 🚧 Project Roadmap
+### 🚧 Project Roadmap
 
 This repository is part of an ongoing research project. In the next stage, we aim to:
 
